@@ -35,10 +35,12 @@ Python · scikit-image · scikit-learn · h5py · NumPy · Pandas · Matplotlib 
 
 ## Structure
 
+```
 ├── P1_Lab1_Lab2_GTI771_A26_pipeline.ipynb   # à uploader maintenant
 ├── P1_Lab3_GTI771_A26_classification.ipynb # Notebook principal (Labs 1+2+3)
 ├── README.md
 └── LICENSE
+```
 
 ## Reproduire
 
