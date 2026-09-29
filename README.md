@@ -36,17 +36,26 @@ Python · scikit-image · scikit-learn · h5py · NumPy · Pandas · Matplotlib 
 ## Structure
 
 ```
-├── P1_Lab1_Lab2_GTI771_A26_pipeline.ipynb
-├── P1_Lab3_GTI771_A26_classification.ipynb
+├── 01_GTI771_Preparation_Donnees.ipynb
+├── 02_GTI771_Classification.ipynb
+├── requirements.txt
+├── .gitignore
 ├── README.md
 └── LICENSE
 ```
 
 ## Reproduire
 
+Pour configurer l'environnement local :
+```bash
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1  # Sous Windows (PowerShell)
+pip install -r requirements.txt
+```
+
 Les fichiers `.h5` de primitives (~50 MB) ne sont pas versionnés — RAF-DB est distribué sous licence académique. Pour les régénérer, exécuter les Labs 1 et 2 du cours GTI771 sur la base RAF-DB.
 
-Le notebook est conçu pour Google Colab (montage Drive). Pour une exécution locale, commenter la cellule `drive.mount` et adapter les chemins `PATH_TRAIN_NORM`, `PATH_TRAIN_REEQ`, `PATH_TEST`.
+Le notebook est conçu pour Google Colab (montage Drive) mais s'adapte automatiquement à un environnement local. Pour une exécution locale, modifier uniquement la variable `BASE_DIR` dans la première cellule de configuration de chaque notebook.
 
 ## Auteur
 
